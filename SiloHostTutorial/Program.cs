@@ -44,7 +44,7 @@ namespace SiloHostTutorial
         {
             System.Timers.Timer aTimer = new System.Timers.Timer();
             aTimer.Elapsed += ATimer_Elapsed1; ;
-            aTimer.Interval = 2000;
+            aTimer.Interval = 1000;
             aTimer.Enabled = true;
         }
 
