@@ -11,7 +11,8 @@
     <AssemblyName>ConverterContracts</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp></NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,8 +34,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Orleans.Core" Version="1.5.0" />
-    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="1.5.3" />
+    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="1.5.3" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
